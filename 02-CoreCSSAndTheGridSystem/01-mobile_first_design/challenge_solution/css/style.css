@@ -22,6 +22,16 @@ body {
 
 .features-container {}
 
+/* Darken the background image */
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
 .jumbotron {
     background-color: transparent;
 }
@@ -37,7 +47,14 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+}
+
+.block-divider--oragne {
     background-color: #b58020;
+}
+
+.block-divider--short {
+    width: 35x;
 }
 
 .jumbotron .lead {
